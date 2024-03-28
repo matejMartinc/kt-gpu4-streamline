@@ -1,0 +1,14 @@
+Bootstrap: docker
+From: pytorch/pytorch:latest
+
+%post
+    pip install pytorch-lightning wandb
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+    export https_proxy=www-proxy.ijs.si:8080
+    export http_proxy=www-proxy.ijs.si:8080
+    export no_proxy=127.0.0.0/8
+
+%runscript
+    echo "Use this container to run PyTorch Lightning scripts with wandb integration."
