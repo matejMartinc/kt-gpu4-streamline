@@ -23,7 +23,7 @@ In our mission to revolutionize our machine learning pipeline, we've chosen to i
 - [Apptainer containers](https://apptainer.org/) - Containerization technology, vital for portability and reproducibility (formerly known as Singularity).
 
 ## SLURM 
-To be able to work with large models and execute experiments on a large scale, one needs access to a High-Performance Computing (HPC) system. Luckily, as employees at JSI, we have access to the national HPC network through SLING (https://www.sling.si/sling/). To gain access, you need to contact ``barbara.krasovec@ijs.si`` and ``cc damjan.demsar@ijs.si``. Additional insights into SLURM can be found here: https://doc.sling.si/en/navodila/slurm/  
+To be able to work with large models and execute experiments on a large scale, one needs access to a High-Performance Computing (HPC) system. Luckily, as employees at JSI, we have access to the national HPC network through SLING (https://www.sling.si/sling/). Additional insights into SLURM can be found here: https://doc.sling.si/en/navodila/slurm/  
 
 ## Data Version Control (DVC)
 
